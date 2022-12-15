@@ -107,5 +107,9 @@ void addop(stack_t **stack, unsigned int nline);
 void nop(stack_t **stack, unsigned int nline);
 void free_stack(stack_t **stack);
 void qpush(stack_t **stack, unsigned int nline);
+void subop(stack_t **stack, unsigned int nline);
+void divop(stack_t **stack, unsigned int nline);
+void mulop(stack_t **stack, unsigned int nline);
+void modop(stack_t **stack, unsigned int nline);
 
 #endif /* MONTY_H */

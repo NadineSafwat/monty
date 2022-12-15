@@ -6,7 +6,7 @@
  *
  * Return: Nothing (void)
  */
- 
+
 void parsefile(FILE *file)
 {
 	size_t size = 0;

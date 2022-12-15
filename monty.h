@@ -44,12 +44,11 @@ typedef struct instruction_s
 } instruction_t;
 
 /**
- * arg_s - doubly linked list representation of a stack (or queue)
+ * struct arg_s - argument structure
  * @arg: argument
  * @flag: flag
  *
- * Description: doubly linked list node structure
- * for stack, queues, LIFO, FIFO
+ * Description: cntains the arguments and flags
  */
 
 typedef struct arg_s
@@ -75,7 +74,7 @@ typedef struct line
 } line_t;
 
 /**
- * meta_s - doubly linked list representation of a stack (or queue)
+ * struct meta_s - doubly linked list representation of a stack (or queue)
  * @buf: integer
  * @stack: points to the previous element of the stack (or queue)
  * @file: points to the next element of the stack (or queue)
